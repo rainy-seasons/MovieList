@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 @Document(collection = "movies")
-@Data // From lombok - to handle getters/setters
+@Data 
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
